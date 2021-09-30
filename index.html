@@ -2,26 +2,41 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Rdio - Luke Chesser</title>
-
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
 	</head>
 	<body>
-		<header>
-			<div class="wrapper">
-				<div class="logo-search">
-					<img class="pull-left" src="img/logo.png" />
+		<div class="container-fluid">
+			
+			<header>
+				<div class="wrapper">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="logo-search">
+								<img class="pull-left" src="img/logo.png" />
+							</div>
+						</div>
+		
+						<div class="col-sm-3">
+							<form method="POST" action="index.html">
+								<input type="search" required class="search">
+								<input type="submit" name="submit" value="Rechercher" class="submit">
+							</form>
+						</div>
+						<div class="col-sm-6">
+							<div class="user">
+								<a href="#">Luke Chessergr</a>
+							</div>
+						</div>
+					</div>
 				</div>
-
-				<form method="POST" action="index.html">
-					<input type="search" required class="search">
-					<input type="submit" name="submit" value="Rechercher" class="submit">
-				</form>
-				<div class="user">
-				    <a href="#">Luke Chesser</a>
-				</div>
-			</div>
-		</header>
+			</header>
+		
+			<div class="row">
+		<div class="col-sm-3">
+		
+	
 		<aside>
 			<h3>Browse</h3>
 			<nav class="browse">
@@ -40,8 +55,10 @@
 				</ul>
 			</nav>
 		</aside>
-
+		</div>
+		<div class="col-sm-9">
 		<main>
+			<div class="row">
 			<header>
 				<div class="name-photo">
 					<aside>
@@ -67,6 +84,7 @@
 					</div>
 				</div>
 			</header>
+			</div>
 			<h2>Top Album</h2>
 			<div>
 				<a class="station" href="#">Start Station</a>
@@ -154,5 +172,8 @@
 				</article>
 			</section>
 		</main>
+		</div>
+	</div>
+	</div>
 	</body>
 </html>
