@@ -89,6 +89,15 @@ main header aside img {
     box-shadow: 0 0 5px #cecece;
 }
 
+.menu{
+    text-align: left;
+    margin-left: 40%;
+}
+
+.name{
+    margin-left: 20px;
+}
+
 nav ul li:last-child {
     margin-bottom: 30px;
 }
@@ -116,6 +125,11 @@ h1 {
     padding: 15px 0px 10px 0px;
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
+}
+
+.links{
+    text-align: right;
+    margin-right: 50px;
 }
 
 .stats-links span, .stats-links a {
@@ -217,6 +231,15 @@ input.submit {
 nav.browse a, nav.music a {
     padding-left: 20px;
     padding-top: 2px;
+}
+
+.top{
+    text-align: left;
+}
+
+.start{
+    text-align: right;
+    margin-right: 50px;
 }
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
